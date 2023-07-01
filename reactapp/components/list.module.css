@@ -1,0 +1,12 @@
+@font-face {
+    font-family: yekan;
+    src: url("../assets/BYekan/BYekan+ Bold.ttf");
+}
+.li{
+    list-style: none !important;
+}
+
+.li-list{
+    margin-left: 20px !important;
+    font-family: yekan !important;
+}

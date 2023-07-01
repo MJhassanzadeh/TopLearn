@@ -1,0 +1,122 @@
+@font-face {
+    font-family: yekan;
+    src: url("../assets/BYekan/BYekan+ Bold.ttf");
+}
+.body{
+    direction: rtl;
+    font-family: yekan !important;
+}
+
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background-image: url("../assets/img/logo.svg");
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+
+.listul{
+    margin-right:  40px;
+    display: flex;
+    font-size: 12px;
+    font-family: "yekan";
+}
+
+.listul .li{
+    font-size: 16px;
+    color: #fff;
+    font-family: "yekan";
+    list-style: none;
+    margin-left: 40px !important;
+}
+
+.header{
+    display: flex;
+}
+
+.img{
+    width: 100%;
+    height: 90vh;
+    background-image: url("../assets/img/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.wh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wapper{
+    margin-top: 40px;
+}
+.fontFamily{
+    font-family: yekan !important;
+}
+
+.formheader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 60px;
+}
+.formheader ::placeholder{
+    padding-right: 20px;
+    color: #000;
+    font-size: 17px;
+    font-family: yekan !important;
+}
+.formheader input{
+    width: 50%;
+    height: 50px;
+    border-radius:50px;
+    border: none;
+}
+
+.imgheader{
+    margin-top:40px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgcom{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgcom div{
+    width: 33.3333333333333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imghead{
+    width: 140px;
+    height: 140px;
+}
+
+.listtb{
+    list-style: none;
+    text-align: center;
+}
+.menutwo{
+    display: flex;
+   margin-top: 3%;
+
+}
+
+
+.menutwo .divtwo{
+    margin-left: 40px;
+
+}
+
